@@ -1,4 +1,3 @@
-#Maintainer:
 
 _pkgname=otter
 pkgname=${_pkgname}-browser-git
@@ -8,8 +7,8 @@ pkgdesc='Otter Browser, project aiming to recreate classic Opera (12.x) using Qt
 arch=('x86_64')
 url="http://www.otter-browser.org"
 license=('Unknown')
-depends=('qt5-base' 'qt5-webkit')
-makedepends=('qt5-base' 'qt5-webkit' 'git')
+depends=('qt5-base' 'qt5-webkit' 'qt5-script')
+makedepends=('git')
 source=("git://github.com/emdek/${_pkgname}.git")
 md5sums=('SKIP')
 

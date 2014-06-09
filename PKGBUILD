@@ -19,7 +19,7 @@ pkgver() {
 
 build() {
    cd "${srcdir}/${_pkgname}"
-   lrelease resources/translations/*.ts
+   /usr/lib/qt5/bin/lrelease resources/translations/*.ts
 	
    mkdir build
    cd build

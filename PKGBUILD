@@ -1,6 +1,6 @@
 pkgname=otter-browser-git
 _pkgname=otter
-pkgver=0.9.06.r56
+pkgver=0.9.06.r121
 pkgrel=1
 pkgdesc='Otter Browser, project aiming to recreate classic Opera (12.x) using Qt5.'
 arch=('x86_64')
